@@ -44,6 +44,6 @@ Features: manual native
 Relations: manual native
 Contributors: Pirinen, Tommi A
 Contributing: elsewhere
-Contact: zeman@ufal.mff.cuni.cz
+Contact: tommi.antero.pirinen@uni-hamburg.de
 ===============================================================================
 </pre>
