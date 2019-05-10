@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>228</sentences><tokens>3094</tokens><words>3094</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>228</sentences><tokens>3094</tokens><words>3094</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="934" /><!-- ., ,, ta, olla, ”, še, mie, myö, mi, ei, hyö, jotta, karjala, oma, ihmini -->
+  <forms unique="1414" /><!-- ., ,, ta, ”, on, oli, jotta, –, hyö, mie, karjalan, ei, hiän, myö, kun -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">216</tag><!-- oma, toini, kanšallini, šuuri, hyvä, semmoni, enšimmäini, eeppini, uuši, 2. -->
+    <tag name="ADP">48</tag><!-- kera, jälkeh, kešen, vaštah, lisäkši, luo, luona, vaipuo, alla, alta -->
+    <tag name="ADV">181</tag><!-- jo, konša, niin, sentäh, tuaš, vielä, aina, keškenäh, mitein, paremmin -->
+    <tag name="AUX">135</tag><!-- olla, ei, voija, piteä, kennih -->
+    <tag name="CCONJ">158</tag><!-- ta, a, ka, ei, vain, šekä, tahi, tai, i, ili -->
+    <tag name="INTJ">3</tag><!-- kyllä, ka -->
+    <tag name="NOUN">840</tag><!-- ihmini, lapši, mua, poika, kulttuuri, muamo, peli, aktijo, roveh, tunti -->
+    <tag name="NUM">47</tag><!-- kakši, n’el’l’ä, yksi, 2017, kahekšan, kolme, kuuši, miljon, pari, viisi -->
+    <tag name="PRON">288</tag><!-- še, mie, myö, mi, hyö, hiän, kaikki, tämä, kumpaine, ne -->
+    <tag name="PROPN">181</tag><!-- Kalevala, Karjala, Venäjä, Petroskoi, Anna, Kiestinki, WWF, Art-teltta, Irina, Manala -->
+    <tag name="PUNCT">569</tag><!-- ., ,, ”, –, “, (, ), :, ?, ! -->
+    <tag name="SCONJ">43</tag><!-- jotta, kun, kuin, još, jošpa, ku, kuni -->
+    <tag name="VERB">379</tag><!-- piteä, ottoa, tulla, ošallistuo, järješteä, suaha, lähtie, männä, pelata, täyttyä -->
+    <tag name="X">6</tag><!-- open, Antilaš, naistai, simvolista, www.etnocenter.ru -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="48">
+    <feat name="Abbr" value="Yes" upos="NOUN,PROPN">8</feat><!-- WWF, WWF:n, KT:n, klo, ven. -->
+    <feat name="Case" value="Abe" upos="NOUN,VERB">2</feat><!-- ajattelomatta, valotta -->
+    <feat name="Case" value="Abl" upos="NOUN,PRON">6</feat><!-- meiltä, saitilta, ulkomailta, ulkopuolelta, Šuolta, šeuvulta -->
+    <feat name="Case" value="Acc" upos="PRON">2</feat><!-- ket, miut -->
+    <feat name="Case" value="Ade" upos="ADJ,NOUN,PRON,PROPN,VERB">102</feat><!-- meilä, avulla, Venäjällä, kielellä, lapšilla, pojalla, tiellä, šuolla, alovehella, kolmannella -->
+    <feat name="Case" value="Com" upos="NOUN,PRON">2</feat><!-- jäšenineh, kaikkine -->
+    <feat name="Case" value="Ela" upos="ADJ,NOUN,PRON,PROPN">38</feat><!-- šiitä, mieleštä, Moskovašta, kumpasešta, niistä, Kalevalašta, Karjalašta, Miušta, Murmanskista, Piiteristä -->
+    <feat name="Case" value="Ess" upos="ADJ,NOUN,PRON">38</feat><!-- vuotena, aikana, tarkotukšena, enšimmäisinä, tänä, Eryähänä, huomenekšena, johtajana, perehenä, pienenä -->
+    <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN">360</feat><!-- karjalan, meijän, muan, miun, Kalevalan, kanšallisien, kulttuurien, lapšien, venäjän, šen -->
+    <feat name="Case" value="Ill" upos="ADJ,NOUN,PRON,PROPN,VERB">97</feat><!-- mih, aktijoh, šinne, Manalah, kulttuurih, luontoh, pelih, šiih, -aktijoh, aikah -->
+    <feat name="Case" value="Ine" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">109</feat><!-- missä, yhteistyöššä, kylissä, Petroskoissa, Petroskoissaki, ativoissa, kaččomašša, kilpailušša, lopušša, mistä -->
+    <feat name="Case" value="Ins" upos="NOUN,PRON">6</feat><!-- kaikin, ropehellisin -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN,VERB">533</feat><!-- hyö, mie, hiän, myö, muamo, še, kaikki, poika, tunti, Kalevala -->
+    <feat name="Case" value="Par" upos="ADJ,ADP,NOUN,NUM,PRON,PROPN">280</feat><!-- mitä, ihmisie, omie, omua, hilluo, tätä, šemmosie, šitä, henkie, iččie -->
+    <feat name="Case" value="Tra" upos="ADJ,NOUN">12</feat><!-- kunnivokši, parahakši, voittajakši, kannettavakši, karjalakši, runonlaulajakši, tunniksi, šiliekši, šuurimmakši -->
+    <feat name="Clitic" value="Ki" upos="ADV,PROPN">3</feat><!-- Petroskoissaki, valittihki -->
+    <feat name="Clitic" value="Ko" upos="AUX,VERB">4</feat><!-- Oletko, Otatko, Vaikuttauko, olisko -->
+    <feat name="Connegative" value="Yes" upos="AUX,VERB">13</feat><!-- ole, huomata, järješšän, kuottele, käynyn, käyvä, miellytä, pitän, tahton, tunneta -->
+    <feat name="Degree" value="Cmp" upos="ADJ">4</feat><!-- paremmat, parempie, pienemmät, šuuremman -->
+    <feat name="Degree" value="Sup" upos="ADJ">8</feat><!-- parahakši, Parahat, kuulusimmissa, paraš, šuurimmakši, šuurimmista, šuurimpie -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">20</feat><!-- ois, voisin, olis, tiijettäis, vois, kannatettais, luiskahettais, olisko, painettais, tietäis -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">9</feat><!-- Elä, mäne, Anna, Ottakkua, varjele, šua, šuvaiče -->
+    <feat name="Mood" value="Ind" upos="ADV,AUX,VERB">382</feat><!-- on, oli, ei, pitäy, tuli, voit, olet, ollah, oltih, otettih -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB">537</feat><!-- hyö, meijän, myö, ihmisie, kanšallisien, kulttuurien, lapšien, ropehet, meilä, ne -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,CCONJ,NOUN,NUM,PRON,PROPN,VERB">1416</feat><!-- on, oli, mie, karjalan, hiän, ei, muamo, muan, mitä, še -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">2</feat><!-- matkahaš, olkapäilläh -->
+    <feat name="NumType" value="Card" upos="NUM">13</feat><!-- 14, 150, 175, 184, 20.30, 2007, 2009, 2013, 2017, 21.30 -->
+    <feat name="NumType" value="Ord" upos="ADJ">13</feat><!-- 2., 28., 1., 19., 21., 24., 25., 27., 4. -->
+    <feat name="PartForm" value="Past" upos="VERB">2</feat><!-- lähten, valettu -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">121</feat><!-- mie, myö, meijän, miun, meilä, en, tahon, voisin, huaveilen, kačoin -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">46</feat><!-- šie, voit, olet, šiun, Elä, maltat, mäne, šuvaičet, Anna, Oletko -->
+    <feat name="Person" value="3" upos="ADV,AUX,CCONJ,PRON,VERB">330</feat><!-- on, oli, hyö, hiän, ei, pitäy, tuli, eikä, hänen, ois -->
+    <feat name="Person[psor]" value="2" upos="NOUN">1</feat><!-- matkahaš -->
+    <feat name="Person[psor]" value="3" upos="ADP,AUX,NOUN,PRON">7</feat><!-- ičelläh, iččieh, jäšenineh, lapšillah, olkapäilläh, olleššah, tultuoh -->
+    <feat name="Polarity" value="Neg" upos="CCONJ">5</feat><!-- eikä -->
+    <feat name="PronType" value="Dem" upos="PRON">73</feat><!-- še, šiitä, šen, ne, tätä, šitä, šinne, niitä, šiih, niistä -->
+    <feat name="PronType" value="Ind" upos="PRON">42</feat><!-- kaikki, kaikin, kumpaset, kumpasien, kumpaista, kumpasešta, monet, muut, muuta, Jokahini -->
+    <feat name="PronType" value="Prs" upos="PRON">127</feat><!-- hyö, mie, hiän, myö, meijän, miun, šie, meilä, hänen, šiun -->
+    <feat name="Reflex" value="Yes" upos="PRON">9</feat><!-- iččie, iče, ičellä, ičelläh, iččieh -->
+    <feat name="Tense" value="Past" upos="ADV,AUX,VERB">196</feat><!-- oli, tuli, oltih, otettih, ošallistu, leväheltih, luati, lähettih, otti, pelattih -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">195</feat><!-- on, ei, pitäy, voit, olet, ollah, en, tahon, voijah, šammutetah -->
+    <feat name="Typo" value="Yes" upos="ADJ">1</feat><!-- alkuperaistä -->
+    <feat name="VerbForm" value="Fin" upos="ADV,AUX,VERB">409</feat><!-- on, oli, ei, pitäy, tuli, voit, ois, olet, ollah, oltih -->
+    <feat name="VerbForm" value="Ger" upos="VERB">1</feat><!-- vaihtuas’s’a -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">85</feat><!-- paissa, kiinnoššuttua, löytyä, täyttyä, šanuo, auttua, kaččomašša, kaččuo, kerätä, lukie -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">10</feat><!-- järješšetty, kirjutettu, käyty, lašettu, ollun, peitetty, pietty, šanottu, šuunnattu -->
+    <feat name="Voice" value="Act" upos="ADP,ADV,AUX,CCONJ,VERB">363</feat><!-- on, oli, ei, pitäy, tuli, voit, eikä, olet, ollah, oltih -->
+    <feat name="Voice" value="Pass" upos="ADP,VERB">55</feat><!-- järješšetty, lähettih, tiijettäis, šammutettih, šyötih, eletäh, erotetah, heitettih, huomata, hyrähettih -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="38">
+    <dep name="acl">7</dep>
+    <dep name="acl:relcl">27</dep>
+    <dep name="advcl">6</dep>
+    <dep name="advmod">174</dep>
+    <dep name="amod">157</dep>
+    <dep name="appos">19</dep>
+    <dep name="aux">59</dep>
+    <dep name="aux:pass">1</dep>
+    <dep name="case">44</dep>
+    <dep name="cc">156</dep>
+    <dep name="ccomp">25</dep>
+    <dep name="compound">31</dep>
+    <dep name="compound:prt">1</dep>
+    <dep name="conj">262</dep>
+    <dep name="cop">48</dep>
+    <dep name="cop:own">5</dep>
+    <dep name="det">37</dep>
+    <dep name="discourse">4</dep>
+    <dep name="fixed">5</dep>
+    <dep name="flat">3</dep>
+    <dep name="flat:name">41</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="mark">43</dep>
+    <dep name="nmod">37</dep>
+    <dep name="nmod:gsubj">5</dep>
+    <dep name="nmod:poss">210</dep>
+    <dep name="nsubj">202</dep>
+    <dep name="nsubj:cop">37</dep>
+    <dep name="nummod">34</dep>
+    <dep name="obj">222</dep>
+    <dep name="obl">329</dep>
+    <dep name="orphan">4</dep>
+    <dep name="parataxis">21</dep>
+    <dep name="punct">569</dep>
+    <dep name="root">228</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">37</dep>
+    <dep name="xcomp:ds">2</dep>
+  </deps>
+</treebank>
