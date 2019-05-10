@@ -1,7 +1,7 @@
 # sent_id = vepkar-1774.1
 # text = “Kalevala” kuččuu ativoih.
 1	“	“	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
-2	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No|PropnType=Al|SpaceAfter=No
+2	Kalevala	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No|PropnType=Al
 3	”	”	PUNCT	PUNCT	_	2	punct	_	_
 4	kuččuu	kuččuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ativoih	ativo	NOUN	NOUN	Case=Ill|Number=Plur	4	xcomp	_	SpaceAfter=No
@@ -16,7 +16,7 @@
 5	kilpailufestivali	kilpailu#festivali	NOUN	NOUN	Case=Nom|Number=Sing	7	obj	_	_
 6	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
 7	ilmotettu	ilmottoa	VERB	VERB	Number=Sing|Voice=Pass	0	root	_	_
-8	Karjalašša	Karjala	PROPN	PROPN	Case=Ine|Number=Sing	7	obl	_	SpaceAfter=No|PropnType=Top|SpaceAfter=No
+8	Karjalašša	Karjala	PROPN	PROPN	Case=Ine|Number=Sing	7	obl	_	SpaceAfter=No|PropnType=Top
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = vepkar-1774.3
@@ -31,7 +31,7 @@
 8	kanšaneepossat	kansan#eepossa	NOUN	NOUN	Case=Nom|Number=Plur	2	obl	_	_
 9	ativoissa	ativo	NOUN	NOUN	Case=Ine|Number=Plur	8	nmod	_	_
 10	”	”	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
-11	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	2	obl	_	SpaceAfter=No|PropnType=Al|SpaceAfter=No
+11	Kalevalan	Kalevala	PROPN	PROPN	Case=Gen|Number=Sing	2	obl	_	SpaceAfter=No|PropnType=Al
 12	”	”	PUNCT	PUNCT	_	11	punct	_	_
 13	luona	luona	ADP	ADP	_	11	case	_	_
 14	-projektin	projektu	NOUN	NOUN	Case=Gen|Number=Sing	8	flat:name	_	_
