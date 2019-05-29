@@ -31,6 +31,12 @@ finding equivalent examples from Finnish treebanks.
 * [Karjalan kielen
    verkkosanakirja](http://kaino.kotus.fi/cgi-bin/kks/kks_etusivu.cgi)
 
+
+# Changelog
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
