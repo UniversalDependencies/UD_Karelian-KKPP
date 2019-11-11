@@ -31,6 +31,19 @@ finding equivalent examples from Finnish treebanks.
 * [Karjalan kielen
    verkkosanakirja](http://kaino.kotus.fi/cgi-bin/kks/kks_etusivu.cgi)
 
+# Cite as
+
+If you use the treebank, please cite the UDW 2019 paper:
+
+```
+@inproceedings{pirinen2019building,
+  title={Building minority dependency treebanks, dictionaries and computational grammars at the same time—an experiment in Karelian treebanking},
+  author={Pirinen, Tommi A},
+  booktitle={Proceedings of the Third Workshop on Universal Dependencies (UDW, SyntaxFest 2019)},
+  pages={132--136},
+  year={2019}
+}
+```
 
 # Changelog
 
