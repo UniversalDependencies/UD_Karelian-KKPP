@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Karelian-KKPP:
-commit e463e9e499715cc21574c445d785001b622eb880
+commit 0595ed1887c75055b69c37c0d796b2acc8366682
+Merge: 6319f3e 89b14ec
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 17:22:46 2019 +0200
 Size: counted 3094 of 3094 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.25892950430175.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,7 +15,7 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 14 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 2091 out of 3094 total words have one or more features.
+Features: 2092 out of 3094 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
