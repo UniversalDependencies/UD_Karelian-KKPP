@@ -18,12 +18,12 @@
     <tag name="ADJ">216</tag><!-- oma, toini, kanšallini, šuuri, hyvä, semmoni, enšimmäini, eeppini, uuši, 2. -->
     <tag name="ADP">48</tag><!-- kera, jälkeh, kešen, vaštah, lisäkši, luo, luona, vaipuo, alla, alta -->
     <tag name="ADV">181</tag><!-- jo, konša, niin, sentäh, tuaš, vielä, aina, keškenäh, mitein, paremmin -->
-    <tag name="AUX">135</tag><!-- olla, ei, voija, piteä, kennih -->
+    <tag name="AUX">134</tag><!-- olla, ei, voija, piteä -->
     <tag name="CCONJ">158</tag><!-- ta, a, ka, ei, vain, šekä, tahi, tai, i, ili -->
     <tag name="INTJ">3</tag><!-- kyllä, ka -->
     <tag name="NOUN">840</tag><!-- ihmini, lapši, mua, poika, kulttuuri, muamo, peli, aktijo, roveh, tunti -->
     <tag name="NUM">47</tag><!-- kakši, n’el’l’ä, yksi, 2017, kahekšan, kolme, kuuši, miljon, pari, viisi -->
-    <tag name="PRON">288</tag><!-- še, mie, myö, mi, hyö, hiän, kaikki, tämä, kumpaine, ne -->
+    <tag name="PRON">289</tag><!-- še, mie, myö, mi, hyö, hiän, kaikki, tämä, kumpaine, ne -->
     <tag name="PROPN">181</tag><!-- Kalevala, Karjala, Venäjä, Petroskoi, Anna, Kiestinki, WWF, Art-teltta, Irina, Manala -->
     <tag name="PUNCT">569</tag><!-- ., ,, ”, –, “, (, ), :, ?, ! -->
     <tag name="SCONJ">43</tag><!-- jotta, kun, kuin, još, jošpa, ku, kuni -->
@@ -49,7 +49,7 @@
     <feat name="Case" value="Tra" upos="ADJ,NOUN">12</feat><!-- kunnivokši, parahakši, voittajakši, kannettavakši, karjalakši, runonlaulajakši, tunniksi, šiliekši, šuurimmakši -->
     <feat name="Clitic" value="Ki" upos="ADV,PROPN">3</feat><!-- Petroskoissaki, valittihki -->
     <feat name="Clitic" value="Ko" upos="AUX,VERB">4</feat><!-- Oletko, Otatko, Vaikuttauko, olisko -->
-    <feat name="Connegative" value="Yes" upos="AUX,VERB">13</feat><!-- ole, huomata, järješšän, kuottele, käynyn, käyvä, miellytä, pitän, tahton, tunneta -->
+    <feat name="Connegative" value="Yes" upos="AUX,VERB">12</feat><!-- ole, huomata, järješšän, kuottele, käynyn, käyvä, miellytä, pitän, tahton, tunneta -->
     <feat name="Degree" value="Cmp" upos="ADJ">4</feat><!-- paremmat, parempie, pienemmät, šuuremman -->
     <feat name="Degree" value="Sup" upos="ADJ">8</feat><!-- parahakši, Parahat, kuulusimmissa, paraš, šuurimmakši, šuurimmista, šuurimpie -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">20</feat><!-- ois, voisin, olis, tiijettäis, vois, kannatettais, luiskahettais, olisko, painettais, tietäis -->
@@ -68,7 +68,7 @@
     <feat name="Person[psor]" value="3" upos="ADP,AUX,NOUN,PRON">7</feat><!-- ičelläh, iččieh, jäšenineh, lapšillah, olkapäilläh, olleššah, tultuoh -->
     <feat name="Polarity" value="Neg" upos="CCONJ">5</feat><!-- eikä -->
     <feat name="PronType" value="Dem" upos="PRON">73</feat><!-- še, šiitä, šen, ne, tätä, šitä, šinne, niitä, šiih, niistä -->
-    <feat name="PronType" value="Ind" upos="PRON">42</feat><!-- kaikki, kaikin, kumpaset, kumpasien, kumpaista, kumpasešta, monet, muut, muuta, Jokahini -->
+    <feat name="PronType" value="Ind" upos="PRON">43</feat><!-- kaikki, kaikin, kumpaset, kumpasien, kumpaista, kumpasešta, monet, muut, muuta, Jokahini -->
     <feat name="PronType" value="Prs" upos="PRON">127</feat><!-- hyö, mie, hiän, myö, meijän, miun, šie, meilä, hänen, šiun -->
     <feat name="Reflex" value="Yes" upos="PRON">9</feat><!-- iččie, iče, ičellä, ičelläh, iččieh -->
     <feat name="Tense" value="Past" upos="ADV,AUX,VERB">196</feat><!-- oli, tuli, oltih, otettih, ošallistu, leväheltih, luati, lähettih, otti, pelattih -->
@@ -89,14 +89,14 @@
     <dep name="advmod">174</dep>
     <dep name="amod">157</dep>
     <dep name="appos">19</dep>
-    <dep name="aux">59</dep>
+    <dep name="aux">58</dep>
     <dep name="aux:pass">1</dep>
     <dep name="case">44</dep>
     <dep name="cc">156</dep>
     <dep name="ccomp">25</dep>
     <dep name="compound">31</dep>
     <dep name="compound:prt">1</dep>
-    <dep name="conj">262</dep>
+    <dep name="conj">264</dep>
     <dep name="cop">48</dep>
     <dep name="cop:own">5</dep>
     <dep name="det">37</dep>
@@ -109,12 +109,12 @@
     <dep name="nmod">37</dep>
     <dep name="nmod:gsubj">5</dep>
     <dep name="nmod:poss">210</dep>
-    <dep name="nsubj">202</dep>
+    <dep name="nsubj">203</dep>
     <dep name="nsubj:cop">37</dep>
     <dep name="nummod">34</dep>
     <dep name="obj">222</dep>
     <dep name="obl">329</dep>
-    <dep name="orphan">4</dep>
+    <dep name="orphan">2</dep>
     <dep name="parataxis">21</dep>
     <dep name="punct">569</dep>
     <dep name="root">228</dep>
