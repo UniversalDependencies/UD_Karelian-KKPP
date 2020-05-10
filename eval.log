@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Karelian-KKPP:
-commit 0595ed1887c75055b69c37c0d796b2acc8366682
-Merge: 6319f3e 89b14ec
+commit c29753e06cb561b6059936cee56372290f5a8da7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:24:21 2019 +0100
 Size: counted 3094 of 3094 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.25892950430175.
 Size: maximum value 13.815511 is for 1000000 words or more.
