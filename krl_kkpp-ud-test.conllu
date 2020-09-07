@@ -525,7 +525,7 @@
 4	šuorah	suorah	ADV	ADV	_	3	advmod	_	_
 5	šuon	šuo	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	laijašta	laita	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	ne	ne	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	13	nsubj:cop	_	_
 9	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
 10	melko	melko	ADV	ADV	_	13	advmod	_	_
@@ -1164,7 +1164,7 @@
 12	šekä	šekä	CCONJ	CCONJ	_	13	cc	_	_
 13	kolme	kolme	NUM	NUM	Case=Nom|Number=Sing	14	nummod	_	_
 14	haltijua	haltija	NOUN	NOUN	Case=Par|Number=Sing	8	conj	_	_
-15	–	–	PUNCT	PUNCT	_	17	punct	_	_
+15	–	–	PUNCT	PUNCT	_	16	punct	_	_
 16	piähenki	piä#henki	NOUN	NOUN	Case=Nom|Number=Sing	8	conj	_	_
 17	Ukko	ukko	NOUN	NOUN	Case=Nom|Number=Sing	16	appos	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	17	punct	_	_
@@ -1904,7 +1904,7 @@
 20	)	)	PUNCT	PUNCT	_	19	punct	_	_
 21	ta	ta	CCONJ	CCONJ	_	22	cc	_	_
 22	kolmannella	kolmaš	ADJ	ADJ	Case=Ade|Number=Sing	13	conj	_	_
-23	–	–	PUNCT	PUNCT	_	25	punct	_	_
+23	–	–	PUNCT	PUNCT	_	24	punct	_	_
 24	Maksim	Maksim	PROPN	PROPN	Case=Nom|Number=Sing	12	conj	_	PropnType=Ant|Gender=Male
 25	Glazkov	Glazkov	PROPN	PROPN	Case=Nom|Number=Sing	24	flat:name	_	PropnType=Cog
 26	(	(	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
@@ -2634,7 +2634,7 @@
 1	Anna	Anna	PROPN	PROPN	Case=Nom|Number=Sing	8	parataxis	_	Gender=Female|PropnType=Ant
 2	Mugačeva	Mugačeva	PROPN	PROPN	Case=Nom|Number=Sing	1	flat:name	_	SpaceAfter=No|PropnType=Cog
 3	:	:	PUNCT	PUNCT	_	1	punct	_	_
-4	“	“	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+4	“	“	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 5	Meijän	myö	PRON	PRON	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
 6	pitäy	piteä	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	enemmän	enemmän	ADV	ADV	_	8	advmod	_	_
@@ -3673,7 +3673,7 @@
 4	omalla	oma	ADJ	ADJ	Case=Ade|Number=Sing	5	amod	_	_
 5	pojalla	poika	NOUN	NOUN	Case=Ade|Number=Sing	3	obl	_	_
 6	vaihtoehtoja	vaihtoehto	NOUN	NOUN	Case=Par|Number=Plur	2	obj	_	SpaceAfter=No
-7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 
 # sent_id = vepkar-1652.63
 # text = Mitein mie voisin šuojella häntä alkoholista tai huumehista?
