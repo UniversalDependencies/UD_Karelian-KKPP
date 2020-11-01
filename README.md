@@ -35,15 +35,31 @@ finding equivalent examples from Finnish treebanks.
 
 If you use the treebank, please cite the UDW 2019 paper:
 
-```
+```bibtex
 @inproceedings{pirinen2019building,
-  title={Building minority dependency treebanks, dictionaries and computational grammars at the same time—an experiment in Karelian treebanking},
+  title={Building minority dependency treebanks, dictionaries and computational
+        grammars at the same time—an experiment in Karelian treebanking},
   author={Pirinen, Tommi A},
-  booktitle={Proceedings of the Third Workshop on Universal Dependencies (UDW, SyntaxFest 2019)},
+  booktitle={Proceedings of the Third Workshop on Universal Dependencies (UDW,
+             SyntaxFest 2019)},
   pages={132--136},
   year={2019}
 }
 ```
+
+# MISC annotations
+
+The treebank has been created by manually selecting and re-annotating a corpus
+created with the annotation toolkit introduced in *Pirinen (2019)*. The
+annotations of the source analyser that did not match potential UD features may
+have been left in the MISC column by the cleanup script:
+
+* `Gender=Masc|Fem` is used in the source analyser for proper nouns; there is no
+  grammatical gender in Karelian
+* `PropnType=Geo|First|Last` is used for categorising proper nouns
+* `Weight=` is used by the WFST analyser and the dependency suggester
+* some values that are used in traditional grammars but do not match UD feature
+  value pairs may appear, e.g. `PronType=Qu` for "quantifier" pronoun
 
 # Changelog
 
