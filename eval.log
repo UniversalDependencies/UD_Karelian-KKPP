@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Karelian-KKPP:
-commit c29753e06cb561b6059936cee56372290f5a8da7
+commit 8bd175eb1d03263f7cd9f7370d889b769af77319
+Merge: 44a0b20 7c22f6a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:24:21 2019 +0100
 Size: counted 3094 of 3094 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.25892950430175.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 2092 out of 3094 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 106 bugs.
+Udapi: found 101 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 3094 words.
 Genres: found 3 out of 17 known.
 validate.py --lang krl --max-err=10 UD_Karelian-KKPP/krl_kkpp-ud-test.conllu
@@ -31,8 +31,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.163506769787783) = 0.0419248127660982
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
-(weight=0.307692307692308) * (score{udapi}=0.657401422107304) = 0.202277360648401
+(weight=0.307692307692308) * (score{udapi}=0.673561732385262) = 0.20724976381085
 (weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
-(TOTAL score=0.535775284987611) * (availability=1) * (validity=1) = 0.535775284987611
+(TOTAL score=0.540747688150059) * (availability=1) * (validity=1) = 0.540747688150059
 STARS = 2.5
-UD_Karelian-KKPP	0.535775284987611	2.5
+UD_Karelian-KKPP	0.540747688150059	2.5
