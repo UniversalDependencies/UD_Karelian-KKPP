@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Karelian-KKPP:
-commit 1d285b70b76547d53c1cda7c19f3bebc43370efd
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:39:38 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Karelian-KKPP:
+commit 515d1e6b02f0ca4a9453572885d4fe2b4a4ed57c
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 14:49:41 2022 +0200
 Size: counted 3094 of 3094 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.25892950430175.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,12 +25,14 @@ Udapi: found 101 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 3094 words.
 Genres: found 3 out of 17 known.
 validate.py --lang krl --max-err=10 UD_Karelian-KKPP/krl_kkpp-ud-test.conllu
+[Line 161 Sent vepkar-1774.7 Node 15]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 1082 Sent vepkar-1663.4 Node 9]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 1083 Sent vepkar-1663.4 Node 10]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 1083 Sent vepkar-1663.4 Node 10]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
 [Line 1083 Sent vepkar-1663.4 Node 10]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
 Morpho errors: 4
-*** FAILED *** with 4 errors
+Syntax errors: 1
+*** FAILED *** with 5 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
