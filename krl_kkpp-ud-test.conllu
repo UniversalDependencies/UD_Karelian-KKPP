@@ -3600,7 +3600,7 @@
 12	enämmän	enämmän	ADV	ADV	_	13	advmod	_	_
 13	paissa	paissa	VERB	VERB	VerbForm=Inf	6	conj	_	_
 14	keškenäh	keškenäh	ADV	ADV	_	13	advmod	_	SpaceAfter=No
-15	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=no
+15	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 
 # sent_id = vepkar-1652.58
 # text = Meilä kaikilla on šamat proplemat.
