@@ -152,14 +152,14 @@
 6	meijän	myö	PRON	PRON	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	nmod:poss	_	_
 7	kuččuh	kučču	NOUN	NOUN	Case=Ill|Number=Sing	8	obl	_	_
 8	vaššatah	vaššata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
-9	starinankertojat	starinan#kertoja	NOUN	NOUN	Case=Nom|Number=Plur	15	nsubj	_	_
+9	starinankertojat	starinan#kertoja	NOUN	NOUN	Case=Nom|Number=Plur	8	obj	_	_
 10	ta	ta	CCONJ	CCONJ	_	11	cc	_	_
 11	guslinšoittajat	guslin#šoittaja	NOUN	NOUN	Case=Nom|Number=Plur	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	15	punct	_	_
 13	jotta	jotta	SCONJ	SCONJ	_	15	mark	_	_
 14	kaččojat	kaččoja	NOUN	NOUN	Case=Nom|Number=Plur	15	nsubj	_	_
 15	šuahah	suaha	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	xcomp	_	_
-16	nähä	nähä	VERB	VERB	VerbForm=Inf	2	conj	_	_
+16	nähä	nähä	VERB	VERB	VerbForm=Inf	3	ccomp	_	_
 17	vanhanaikasien	vanhan#aikane	ADJ	ADJ	Case=Gen|Number=Plur	18	amod	_	_
 18	rahvahantapojen	rahvahan#tapa	NOUN	NOUN	Case=Gen|Number=Plur	19	nmod	_	_
 19	rekonstruointie	rekonstruointi	NOUN	NOUN	Case=Par|Number=Plur	16	obj	_	SpaceAfter=No
@@ -1079,8 +1079,8 @@
 6	keškukšešša	keškuš	NOUN	NOUN	Case=Ine|Number=Sing	8	obl	_	_
 7	myö	myö	PRON	PRON	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 8	pelasima	pelata	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	Kalevala-	Kalevala	PROPN	PROPN	Case=Nom|Number=Sing	8	obj	_	PropnType=Al
-10	šeikkailupelie	seikkailu#peli	NOUN	NOUN	Case=Par|Number=Sing	9	goeswith	_	SpaceAfter=No
+9	Kalevala-	Kalevala-seikkailu#peli	PROPN	PROPN	Case=Par|Number=Sing|Typo=Yes	8	obj	_	PropnType=Al
+10	šeikkailupelie	_	X	NOUN	_	9	goeswith	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_
 12	kumpasen	kumpaine	PRON	PRON	Case=Gen|Number=Sing|PronType=Ind	13	obj	_	_
 13	kekši	kekšie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
@@ -3600,7 +3600,7 @@
 12	enämmän	enämmän	ADV	ADV	_	13	advmod	_	_
 13	paissa	paissa	VERB	VERB	VerbForm=Inf	6	conj	_	_
 14	keškenäh	keškenäh	ADV	ADV	_	13	advmod	_	SpaceAfter=No
-15	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=no
+15	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
 
 # sent_id = vepkar-1652.58
 # text = Meilä kaikilla on šamat proplemat.
