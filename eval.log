@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Karelian-KKPP:
-commit d449b03ab5f73639d44e7dd906720af56dfa73f9
+commit 5afeba691ba9317704bbe61370720fdcf0399cdc
+Merge: f4c8ec8 c1b7876
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:05:03 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'krl_kkpp'
+Language code (from CoNLL-U file name) = 'krl'
+Found the following data files: krl_kkpp-ud-test.conllu
 Size: counted 3094 of 3094 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.25892950430175.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,28 +23,42 @@ Features: 2091 out of 3094 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL         99
-Udapi: found 99 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 3094 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang krl --max-err=10 UD_Karelian-KKPP/krl_kkpp-ud-test.conllu
-[Line 647 Sent vepkar-1427.31 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'niin kun' does not have the 'ExtPos' feature
-[Line 1281 Sent vepkar-1663.16 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'niin kuin' does not have the 'ExtPos' feature
-[Line 3200 Sent vepkar-1652.32 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'toini toista' does not have the 'ExtPos' feature
-[Line 3230 Sent vepkar-1652.34 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'toini toisen' does not have the 'ExtPos' feature
-[Line 3238 Sent vepkar-1652.34 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'toini toisella' does not have the 'ExtPos' feature
-Warnings: 5
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.163506769787783) = 0.0419248127660982
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.823529411764706) = 0.0633484162895928
-(weight=0.307692307692308) * (score{udapi}=0.680025856496445) = 0.209238725075829
-(weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
-(TOTAL score=0.541982501602068) * (availability=1) * (validity=1) = 0.541982501602068
-STARS = 2.5
-UD_Karelian-KKPP	0.541982501602068	2.5
+[Line 25 Sent vepkar-1774.3]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('Kilpailufestivali', 'forumi') under the predicate 'järješšetäh'.
+[Line 40 Sent vepkar-1774.3]: [L3 Warning pron-det-without-prontype] The word 'mi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 89 Sent vepkar-1774.5]: [L3 Syntax too-many-objects] Multiple direct objects [18, 20] ('rahvahan-', 'folkloriteatterija') under the predicate 'kučutah'.
+[Line 137 Sent vepkar-1774.6]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'Moskovašta') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 236 Sent vepkar-1774.11-12]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'forumi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 294 Sent vepkar-1427.2]: [L3 Warning pron-det-without-prontype] The word 'mitä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 400 Sent vepkar-1427.11]: [L3 Syntax too-many-objects] Multiple direct objects [3, 7] ('puukko', 'šitä') under the predicate 'tarviččou'.
+[Line 437 Sent vepkar-1427.15]: [L3 Warning pron-det-without-prontype] The word 'Molommilla' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 582 Sent vepkar-1427.26]: [L3 Warning pron-det-without-prontype] The word 'missä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 612 Sent vepkar-1427.28]: [L3 Warning pron-det-without-prontype] The word 'ičelläh' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 647 Sent vepkar-1427.31]: [L3 Warning fixed-without-extpos] Fixed expression 'niin kun' does not have the 'ExtPos' feature
+[Line 688 Sent vepkar-1427.34]: [L3 Warning pron-det-without-prontype] The word 'mitä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 807 Sent vepkar-1427.44]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('hilluo', 'apuo') under the predicate 'šopi'.
+[Line 821 Sent vepkar-1427.45]: [L3 Warning pron-det-without-prontype] The word 'molommat' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 867 Sent vepkar-1427.48]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('keppie', 'viččua') under the predicate 'leikkasi'.
+...suppressing further errors regarding Warning
+[Line 1294 Sent vepkar-1663.16]: [L3 Syntax too-many-objects] Multiple direct objects [15, 19] ('mit', 'tehtävie') under the predicate 'täyttyä'.
+[Line 2200 Sent vepkar-1740.12]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('muajilman', 'muata') under the predicate 'yhty'.
+[Line 2378 Sent vepkar-1740.21]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('muajilman', 'muata') under the predicate 'liitty'.
+[Line 2420 Sent vepkar-1740.23]: [L3 Syntax too-many-objects] Multiple direct objects [7, 17] ('henkie', 'kaupunkie') under the predicate 'ošallistu'.
+[Line 2937 Sent vepkar-1652.19]: [L3 Syntax too-many-objects] Multiple direct objects [10, 15] ('perehie', 'näpin') under the predicate 'kannatettais'.
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+Warnings: 54
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.163506769787783) = 0.060558062884364
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
+(weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
+(TOTAL score=0.480629899426789) * (availability=1) * (validity=0.01) = 0.00480629899426789
+STARS = 0
+UD_Karelian-KKPP	0.00480629899426789	0
