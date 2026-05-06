@@ -96,7 +96,7 @@
     <dep name="ccomp">26</dep>
     <dep name="compound">31</dep>
     <dep name="compound:prt">1</dep>
-    <dep name="conj">263</dep>
+    <dep name="conj">268</dep>
     <dep name="cop">48</dep>
     <dep name="cop:own">5</dep>
     <dep name="det">37</dep>
@@ -108,11 +108,11 @@
     <dep name="mark">43</dep>
     <dep name="nmod">37</dep>
     <dep name="nmod:gsubj">5</dep>
-    <dep name="nmod:poss">210</dep>
+    <dep name="nmod:poss">214</dep>
     <dep name="nsubj">202</dep>
     <dep name="nsubj:cop">37</dep>
     <dep name="nummod">34</dep>
-    <dep name="obj">223</dep>
+    <dep name="obj">214</dep>
     <dep name="obl">329</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">21</dep>
