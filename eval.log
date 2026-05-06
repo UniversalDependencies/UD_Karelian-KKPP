@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Karelian-KKPP:
-commit 5afeba691ba9317704bbe61370720fdcf0399cdc
-Merge: f4c8ec8 c1b7876
+commit 4b4643a3356a4a0270e5ddd5420fd001e91c3061
+Merge: c2d3371 72298c6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'krl_kkpp'
@@ -25,33 +25,25 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang krl --max-err=10 UD_Karelian-KKPP/krl_kkpp-ud-test.conllu
-[Line 25 Sent vepkar-1774.3]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('Kilpailufestivali', 'forumi') under the predicate 'järješšetäh'.
-[Line 40 Sent vepkar-1774.3]: [L3 Warning pron-det-without-prontype] The word 'mi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 89 Sent vepkar-1774.5]: [L3 Syntax too-many-objects] Multiple direct objects [18, 20] ('rahvahan-', 'folkloriteatterija') under the predicate 'kučutah'.
-[Line 137 Sent vepkar-1774.6]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'Moskovašta') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 236 Sent vepkar-1774.11-12]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'forumi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 294 Sent vepkar-1427.2]: [L3 Warning pron-det-without-prontype] The word 'mitä' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 400 Sent vepkar-1427.11]: [L3 Syntax too-many-objects] Multiple direct objects [3, 7] ('puukko', 'šitä') under the predicate 'tarviččou'.
-[Line 437 Sent vepkar-1427.15]: [L3 Warning pron-det-without-prontype] The word 'Molommilla' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 582 Sent vepkar-1427.26]: [L3 Warning pron-det-without-prontype] The word 'missä' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 612 Sent vepkar-1427.28]: [L3 Warning pron-det-without-prontype] The word 'ičelläh' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 647 Sent vepkar-1427.31]: [L3 Warning fixed-without-extpos] Fixed expression 'niin kun' does not have the 'ExtPos' feature
-[Line 688 Sent vepkar-1427.34]: [L3 Warning pron-det-without-prontype] The word 'mitä' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 807 Sent vepkar-1427.44]: [L3 Syntax too-many-objects] Multiple direct objects [6, 11] ('hilluo', 'apuo') under the predicate 'šopi'.
-[Line 821 Sent vepkar-1427.45]: [L3 Warning pron-det-without-prontype] The word 'molommat' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 867 Sent vepkar-1427.48]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('keppie', 'viččua') under the predicate 'leikkasi'.
-...suppressing further errors regarding Warning
-[Line 1294 Sent vepkar-1663.16]: [L3 Syntax too-many-objects] Multiple direct objects [15, 19] ('mit', 'tehtävie') under the predicate 'täyttyä'.
-[Line 2200 Sent vepkar-1740.12]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('muajilman', 'muata') under the predicate 'yhty'.
-[Line 2378 Sent vepkar-1740.21]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('muajilman', 'muata') under the predicate 'liitty'.
-[Line 2420 Sent vepkar-1740.23]: [L3 Syntax too-many-objects] Multiple direct objects [7, 17] ('henkie', 'kaupunkie') under the predicate 'ošallistu'.
-[Line 2937 Sent vepkar-1652.19]: [L3 Syntax too-many-objects] Multiple direct objects [10, 15] ('perehie', 'näpin') under the predicate 'kannatettais'.
-...suppressing further errors regarding Syntax
-Syntax errors: 12
-Warnings: 54
-*** FAILED *** with 12 errors
-Exit code: 1
-Validity: 0.01
+[Line 40 Sent vepkar-1774.3]: [L3 WARNING pron-det-without-prontype] The word 'mi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 294 Sent vepkar-1427.2]: [L3 WARNING pron-det-without-prontype] The word 'mitä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 437 Sent vepkar-1427.15]: [L3 WARNING pron-det-without-prontype] The word 'Molommilla' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 582 Sent vepkar-1427.26]: [L3 WARNING pron-det-without-prontype] The word 'missä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 612 Sent vepkar-1427.28]: [L3 WARNING pron-det-without-prontype] The word 'ičelläh' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 647 Sent vepkar-1427.31]: [L3 WARNING fixed-without-extpos] Fixed expression 'niin kun' does not have the 'ExtPos' feature
+[Line 688 Sent vepkar-1427.34]: [L3 WARNING pron-det-without-prontype] The word 'mitä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 821 Sent vepkar-1427.45]: [L3 WARNING pron-det-without-prontype] The word 'molommat' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 883 Sent vepkar-1427.49]: [L3 WARNING pron-det-without-prontype] The word 'molompih' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1200 Sent vepkar-1663.11]: [L3 WARNING pron-det-without-prontype] The word 'ičellä' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1203 Sent vepkar-1663.11]: [L3 WARNING pron-det-without-prontype] The word 'mih' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1281 Sent vepkar-1663.16]: [L3 WARNING fixed-without-extpos] Fixed expression 'niin kuin' does not have the 'ExtPos' feature
+[Line 3200 Sent vepkar-1652.32]: [L3 WARNING fixed-without-extpos] Fixed expression 'toini toista' does not have the 'ExtPos' feature
+[Line 3230 Sent vepkar-1652.34]: [L3 WARNING fixed-without-extpos] Fixed expression 'toini toisen' does not have the 'ExtPos' feature
+[Line 3238 Sent vepkar-1652.34]: [L3 WARNING fixed-without-extpos] Fixed expression 'toini toisella' does not have the 'ExtPos' feature
+Warnings: 51
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -59,6 +51,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
 (weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
-(TOTAL score=0.480629899426789) * (availability=1) * (validity=0.01) = 0.00480629899426789
-STARS = 0
-UD_Karelian-KKPP	0.00480629899426789	0
+(TOTAL score=0.480629899426789) * (availability=1) * (validity=1) = 0.480629899426789
+STARS = 2.5
+UD_Karelian-KKPP	0.480629899426789	2.5
